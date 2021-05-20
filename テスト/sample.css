@@ -1,6 +1,15 @@
 @charset "utf-8";
 
-body{
-    background-image: url(image.png);
-    background-repeat:no-repeat;
+.A{
+    color: red;
+}
+
+.B{
+    font-size: 30px;
+}
+#A{
+    color: blue;
+}
+#B{
+    background-color: yellow;
 }

@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+body{
+    margin:0;
+    padding:0;
+    font-family: "ヒラギノ角ゴ Pro W3";
+    color:black;
+    font-size: 13px;
+    background-color: #ffffff;
+}
+
+/*----------------container-----------------*/
+.container{
+    width:100%;
+    height: 100vh;
+    margin:0;
+    padding:0;
+    display: grid;
+    grid-template-columns: 17vw 83vw;
+}
+
+/*----------------navigation----------------*/
+.nav-wrap{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.nav{
+    
+}
+
+.navlogo{
+    width: 150px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 10%;
+    
+}
+
+
+.nav-box{
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 15%;
+ }
+
+.nav-box ul{
+    margin:0;
+    padding:0;
+    line-height: 63px;
+    list-style: none;
+    position: relative;
+    left: 21%;
+}
+
+.nav-box ul li{
+}
+
+.nav-box ul li a{
+    margin:0;
+    padding:0;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+/*-----------------maincontent------------------*/
+.content-wrap{
+    width: 100%;
+    height: 5000px;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+}
+
+/*-----------------header------------------*/
+.header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header-oya{
+    position:relative;
+}
+
+.header-ko1{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+
+
+.header-oya2{
+    width: 90%;
+    height: 90vh;
+    margin:0;
+    padding:0;
+    position: relative;
+}
+
+.header-ko2{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.header-ko3{
+    position: absolute;
+    top:30px;
+    right:50px;
+}
+
+.header-ko4{
+    margin:0;
+    padding:0;
+    position: absolute;
+    top:420px;
+    left:10px;
+}
+
+.header-ko4 p{
+    font-family: "YuMincho";
+    font-size: 80px;
+    color: #FFF;
+}
+
+.header-ko5{
+    padding:0 20px 0 20px;
+    position: absolute;
+    top: 551px;
+    right: 119px ;
+    background-color: red;
+    box-sizing: border-box;
+}
+
+.header-ko5 a{
+    font-size: large;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nature{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    margin:0;
+    padding:0;
+}
+
+.movie{
+    width: 90%;
+    height: 90%;
+    margin:0;
+    padding:0;
+}
+/*--------------emergency---------------------*/
+
+
+/*--------------motto---------------------*/
+.emergency{
+    width: 100%;
+    display: block;
+    height: 100vh;
+    
+}
+
