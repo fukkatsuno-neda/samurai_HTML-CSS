@@ -144,7 +144,7 @@ body{
     position: absolute;
     top: 551px;
     right: 119px ;
-    background-color: #e69e2b;
+    background-color: red;
     box-sizing: border-box;
 }
 
@@ -170,75 +170,12 @@ body{
 }
 /*--------------emergency---------------------*/
 
+
+/*--------------motto---------------------*/
 .emergency{
     width: 100%;
     display: block;
     height: 100vh;
+    
 }
-/*--------------motto---------------------*/
-.motto{
-    width: auto;
-    height: auto;
-    margin:100px 50px 100px 50px;
-    padding:0;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-}
-
-.motto-mascot{
-   margin:0;
-   padding: 0;
-   width: 600px;
-  
-}
-
-.mascot-design{
-    height: 200px;
-    text-align: center;
-    background: rgb(252,130,69);
-    background: linear-gradient(90deg, rgba(252,130,69,1) 0%, rgba(253,183,29,1) 50%, rgba(252,176,69,1) 100%);
-    position: relative;
-}
-.mascot-volume{
-     font-family: "YuMincho";
-     font-size: 62px;
-     color: #FFFFFF;
-     position: absolute;
-     top: 5px;
-     left: 33px;
-}
-
-.motto-design{
-    width: 300px;
-    font-family: "YuMincho";
-    font-size: 20px;
-    line-height: 20px;
-    box-sizing: border-box;
-}
-
-.motto-wrap{
-    margin:0;
-    padding:0;
-    height:auto;
-    position:absolute;
-    bottom:10px;
-    right:35px;
-}
-
-.motto-benefique{
-    background-color: #e69e2b;
-    text-align: center;
-}
-.motto-benefique a{
-    font-size: large;
-    text-decoration: none;
-    color: #ffffff;
-    font-family: "ヒラギノ角ゴ Pro W3";
-}
-.marginright{
-    margin-right: 100px;
-    color: #FFFFFF;
-}
-
 
